@@ -39,14 +39,14 @@ public class EmployeeSearchController {
         this.appProperties = app;
     }
 
-	@RequestMapping(path="/employee/find/{id2}", produces= MediaType.APPLICATION_JSON_VALUE)
+	@RequestMapping(path="/find/{id2}", produces= MediaType.APPLICATION_JSON_VALUE)
 	@ResponseBody
 	public Employee findById(@PathVariable Long id2) {
 		logger.info(appProperties.toString());
 		return employeeSearchService.findById(id2);
 	}
 
-	@RequestMapping(path="/employee/findall", produces= "application/json")
+	@RequestMapping(path="/findall", produces= "application/json")
 	@ResponseBody
 	public Collection<Employee> findAll() {
 		logger.info("#FINDALL:"+appProperties.toString());
