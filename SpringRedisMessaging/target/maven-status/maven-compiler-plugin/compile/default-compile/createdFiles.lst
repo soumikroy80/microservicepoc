@@ -1,7 +1,9 @@
 com\spring\redis\Message.class
 com\spring\redis\SpringRedisMessagingApplication.class
-com\spring\redis\core\RedisListener.class
 com\spring\redis\core\RedisConfig.class
 com\spring\redis\MessageController.class
+com\spring\redis\core\Listener.class
 com\spring\redis\MessagePublisher.class
+com\spring\redis\core\Receiver.class
+com\spring\redis\core\RedisListener.class
 com\spring\redis\core\RedisMessagePublisher.class
