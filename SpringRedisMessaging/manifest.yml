@@ -1,0 +1,9 @@
+---
+applications:
+- name: SpringRedisMessaging
+  memory: 1024M
+  services:
+  - redis
+  buildpack: java_buildpack
+  
+ 
