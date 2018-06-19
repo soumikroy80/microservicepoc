@@ -14,6 +14,7 @@ import com.spring.redis.core.RedisMessagePublisher;
 @Controller
 public class MessageController {
 
+	
 	@Autowired
 	private RedisMessagePublisher redisMessagePublisher;
 	
